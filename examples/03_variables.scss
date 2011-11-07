@@ -1,0 +1,10 @@
+$base-color: #9c0;
+
+.container {
+  $base-color: #690;
+  background-color: $base-color;
+}
+
+a {
+  color: $base-color;
+}

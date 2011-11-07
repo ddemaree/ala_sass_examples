@@ -1,0 +1,16 @@
+$base-link-color: #00f;
+
+a {
+  color: $base-link-color;
+}
+
+a:visited {
+  // This reduces the lightness of the color (in HSL terms) 
+  // by 50%, leaving hue and saturation alone
+  color: darken($base-link-color, 20%);
+}
+
+figcaption {
+  // Generates an rgba() color value with 50% opacity
+  background-color: transparentize(#fff, 0.5);
+}

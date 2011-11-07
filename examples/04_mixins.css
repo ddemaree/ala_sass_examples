@@ -1,0 +1,9 @@
+.result-with-highlights span {
+  font-weight: bold;
+  background-color: #ffffaa;
+}
+
+.highlighted {
+  font-weight: bold;
+  background-color: #ffffaa;
+}

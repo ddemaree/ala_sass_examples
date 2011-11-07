@@ -1,0 +1,15 @@
+.container {
+	width: 940px;
+	
+	// If the device is narrower than 940px, switch to a fluid layout
+	@media screen and (max-width:940px) {
+	  width: auto;
+	}
+	
+	.main-content {
+	  width: 600px;
+	  @media screen and (max-width:940px) {
+      width: 63.8%;
+    }
+	}
+}

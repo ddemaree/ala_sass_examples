@@ -1,0 +1,16 @@
+.container {
+  width: 940px;
+}
+@media screen and (max-width:940px) {
+  .container {
+    width: auto;
+  }
+}
+.container .main-content {
+  width: 600px;
+}
+@media screen and (max-width:940px) {
+  .container .main-content {
+    width: 63.8%;
+  }
+}

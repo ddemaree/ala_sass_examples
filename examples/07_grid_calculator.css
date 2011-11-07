@@ -1,0 +1,41 @@
+.group:before, .group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1;
+}
+
+.container {
+  float: left;
+  margin-right: 20px;
+  width: 940px;
+  float: none;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+.container {
+  zoom: 1;
+}
+
+.main-content {
+  float: left;
+  margin-right: 20px;
+  width: 620px;
+}
+
+.sidebar {
+  float: left;
+  margin-right: 20px;
+  width: 300px;
+  margin-right: 0;
+}

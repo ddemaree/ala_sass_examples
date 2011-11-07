@@ -1,0 +1,10 @@
+body.home .media-unit {
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+body.home .media-unit .right {
+  border-left: 1px solid #ccc;
+}
+body.home .media-unit .right h1 {
+  font-size: 24px;
+}

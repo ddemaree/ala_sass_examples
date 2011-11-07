@@ -1,0 +1,28 @@
+// Importing the clearfix mixin from a previous example
+@import './06_mixin_clearfix';
+
+// Setting up variables for a 940px, 12-column grid
+$column-width: 60px;    // 12 columns = 720px
+$gutter-width: 20px;    // 11 gutters = 220px
+
+@mixin grid-unit($span) {
+  float: left;
+  margin-right: $gutter-width;
+  width: ($column-width * $span) + ($gutter-width * ($span - 1));
+}
+
+.container {
+  @include clearfix;
+  @include grid-unit(12);
+  float: none;
+  margin: 0 auto;
+}
+
+.main-content {
+  @include grid-unit(8);
+}
+
+.sidebar {
+  @include grid-unit(4);
+  margin-right: 0;
+}

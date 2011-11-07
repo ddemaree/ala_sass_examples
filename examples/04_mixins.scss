@@ -1,0 +1,16 @@
+$highlight-color: #ffa;
+
+@mixin highlighted-bold-text {
+	font-weight: bold;
+	background-color: $highlight-color;
+}
+
+.result-with-highlights {
+	span {
+		@include highlighted-bold-text;
+	}
+}
+
+.highlighted {
+  @include highlighted-bold-text;
+}

@@ -1,0 +1,13 @@
+.container {
+  // result = target / context
+  width: percentage(940px / 960px);
+
+  .main-content {
+    // This is nested inside of .container, so its context is 940px
+    width: percentage(620px / 940px);
+  }
+
+  .sidebar {
+    width: percentage(300px / 940px);
+  }
+}
