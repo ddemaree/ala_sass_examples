@@ -1,6 +1,6 @@
 # Sass example code for A List Apart
 
-This project contains full source code examples for my article "[TITLE TBD]" appearing in the Nov. 29 issue of A List Apart.
+This project contains full source code examples for my article [Getting Started with Sass](http://www.alistapart.com/articles/getting-started-with-sass/) in [A List Apart #340](http://www.alistapart.com/issues/340), published November 29, 2011.
 
 ## What's in this project
 
